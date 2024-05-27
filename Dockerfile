@@ -7,8 +7,8 @@ WORKDIR /
 RUN pip3 install -r requirements.txt
 RUN pip install --upgrade Flask Jinja2
 
-
 COPY . /
+
 
 ENTRYPOINT [ "python3" ]
 
